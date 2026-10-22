@@ -1,0 +1,16 @@
+# Data and model artefacts (these live in Google Drive during development, not in the repo)
+data/
+checkpoints/
+logs/
+*.h5
+*.keras
+*.tflite
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
