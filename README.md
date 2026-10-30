@@ -4,13 +4,13 @@ Open `glaucoma_screening.ipynb` in Google Colab (File → Upload notebook, or up
 
 ## Before you start
 1. **Register for REFUGE/REFUGE2** at https://refuge.grand-challenge.org/REFUGE2Download/ if you haven't — this can take a day or two to approve, so do it first.
-2. Get a Kaggle API token (kaggle.com → Account → Create New API Token) — you'll upload `kaggle.json` when the notebook asks for it.
+2. Get a Kaggle API token: kaggle.com → Settings → API → **Create New Token** (gives you a `KGAT_...` token). You'll paste it into a hidden-input prompt when the notebook's Section 4.1 cell asks for it — nothing gets written into the notebook file itself, so it's safe to keep committing this notebook to git.
 
 ## Where to download each dataset
 
 | Dataset | Link | Access |
 |---|---|---|
-| G1020 | https://www.kaggle.com/datasets/arnavjain1/glaucoma-datasets | Kaggle account (free) — the notebook downloads this automatically once your `kaggle.json` is uploaded |
+| G1020 | https://www.kaggle.com/datasets/arnavjain1/glaucoma-datasets | Kaggle account (free) — the notebook downloads this automatically once your API token is pasted in |
 | ACRIMA | https://figshare.com/s/c2d31f850af14c5b5232 | Open, no account needed — download the zip from the page and upload it to Drive (see Section 4.3 note below) |
 | RIM-ONE DL | https://github.com/miag-ull/rim-one-dl (official source also at http://medimrg.webs.ull.es/research/retinal-imaging/rim-one/) | Open — the notebook clones this automatically |
 | REFUGE | https://refuge.grand-challenge.org/REFUGE2Download/ | Registration required |
